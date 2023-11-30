@@ -65,11 +65,13 @@ body{
     font-size: 150%;
 
 }
-img{
-    width: 500px;
-    border-radius: 20%;
-    padding: 10%;
+.home-main img{
+    width: 100%;
+}   
     
+.smaller-image{
+  border: 20%;
+  border-radius: 20%;
 }
     
 
@@ -137,7 +139,7 @@ footer{
     .text {
       color: #f2f2f2;
       font-size: 15px;
-      padding: 8px 12px;
+      padding: 0 50px;
       position: absolute;
       bottom: 8px;
       width: 100%;
