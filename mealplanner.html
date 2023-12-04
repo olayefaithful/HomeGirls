@@ -26,19 +26,20 @@
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="images/Gymphotos1.png" style="width:100%">
+    <div class="numbertext">1 / 2</div>
+    <img src="images/Gymphotos1.png" style="width:100%" alt="gym photos">
     <div class="text">Meal planning is a powerful tool for body and mind. It aids in maintaining a balanced diet, which nourishes the body, promotes weight management, and reduces the risk of diseases. Additionally, it alleviates stress by eliminating last-minute meal decisions, fostering a calm and focused mind</div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">1 / 2</div>
-    <img src="images/Gymphotos5.png" style="width:100%">
+    <div class="numbertext">2 / 2</div>
+    <img src="images/Gymphotos5.png" style="width:100%" alt="gym photos">
     <div class="text">"HomeGirls" is a fitness app tailored for women, offering personalized meal plans based on individual preferences, allergies, goals, and health status. It uses scientific research to provide balanced, nutritious meals, complete with recipes and grocery lists. Users can track their intake and modify plans as needed. The app promotes healthy eating habits and aids in achieving fitness goals. </div>
   </div>
 
 
-  <!-- Next and previous buttons -->
+<!-- Next and previous buttons -->
+<div>
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
@@ -52,7 +53,7 @@
 </div> 
             </main>
             <footer>
-                <p>HomeGirls &copy; 2023 - Faithful Olaye</p>
+                <p>HomeGirls &copy 2023 - Faithful Olaye</p>
                 <p><a href="site-plan.html">Site Plan</a></p>
                 <p><a href="contactus.html">Contact Us</a></p>
                
@@ -60,20 +61,20 @@
             </div>
             <script>
     
-                let slideIndex = 1;
-                showSlides(slideIndex);
+let slideIndex = 1;
+showSlides(slideIndex);
                 
-                // Next/previous controls
+// Next/previous controls
                 function plusSlides(n) {
                   showSlides(slideIndex += n);
                 }
                 
-                // Thumbnail image controls
+// Thumbnail image controls
                 function currentSlide(n) {
                   showSlides(slideIndex = n);
                 }
                 
-                function showSlides(n) {
+function showSlides(n) {
                   let i;
                   let slides = document.getElementsByClassName("mySlides");
                   let dots = document.getElementsByClassName("dot");
@@ -88,6 +89,6 @@
                   slides[slideIndex-1].style.display = "block";
                   dots[slideIndex-1].className += " active";
                 }
-                  </script>     
+</script>     
 </body>
 </html>
