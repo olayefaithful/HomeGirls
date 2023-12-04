@@ -70,8 +70,7 @@ body{
 }   
     
 .smaller-image{
-  border: 20%;
-  border-radius: 20px
+  border-radius: 20px;
 }
     
 
@@ -141,7 +140,6 @@ footer{
       font-size: 15px;
       padding: 0 50px;
       position: absolute;
-      bottom: 8px;
       width: 100%;
       text-align: center;
     }
